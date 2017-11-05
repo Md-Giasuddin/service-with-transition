@@ -1,0 +1,137 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    color: #8b8b8b;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 70px 0;
+    background: #fbfbfb;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #373737;
+    text-transform: uppercase;
+}
+
+.single-service-item {
+    background: #fff;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.bg-1 {
+    background-image: url(../img/s1.jpg);
+}
+
+.bg-2 {
+    background-image: url(../img/s2.jpg);
+}
+
+.bg-3 {
+    background-image: url(../img/s3.jpg);
+}
+
+.bg-4 {
+    background-image: url(../img/s4.jpg);
+}
+
+.service-bg {
+    background-color: #ddd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+
+.service-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #373737;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+.service-content {
+    padding-left: 20px;
+}
+
+.service-content p {
+    font-size: 15px;
+}
+
+.service-btn {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #2ecc71;
+    padding: 10px 0;
+    border-radius: 50px;
+    margin: 15px 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.service-btn i.fa {
+    padding-left: 10px;
+}
+
+.service-btn:hover {
+    background: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.single-service-item:hover {
+    box-shadow: 0 0 10px #333;
+}
+
+.active {
+    background: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+}
